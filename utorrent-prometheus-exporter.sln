@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "utorrent-prometheus-exporter", "utorrent-prometheus-exporter\utorrent-prometheus-exporter.csproj", "{A61AFC1C-E535-4BEB-B0EC-78FABDF0B37F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A61AFC1C-E535-4BEB-B0EC-78FABDF0B37F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A61AFC1C-E535-4BEB-B0EC-78FABDF0B37F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A61AFC1C-E535-4BEB-B0EC-78FABDF0B37F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A61AFC1C-E535-4BEB-B0EC-78FABDF0B37F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95B722C5-1E64-46ED-8CC3-979E47DD3752}
+	EndGlobalSection
+EndGlobal
