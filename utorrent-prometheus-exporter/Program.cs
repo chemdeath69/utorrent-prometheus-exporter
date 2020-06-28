@@ -209,7 +209,7 @@ namespace UTorrentExporter
                             // MetricBytesUploaded
                             if (LastBytesUploadedState.ContainsKey(torrent.Hash))
                             {
-                                var increaseAmt = torrent.Uploaded * -LastBytesUploadedState[torrent.Hash];
+                                var increaseAmt = torrent.Uploaded - LastBytesUploadedState[torrent.Hash];
                                 MetricBytesUploaded.WithLabels(SanitizeString(torrent.Name), torrent.Hash).Inc(increaseAmt);
                                 if (options.Verbose) Console.WriteLine($"{MetricBytesUploadedCounterName} with torrent = \"{SanitizeString(torrent.Name)}\" increased by {increaseAmt}.");
                             }
